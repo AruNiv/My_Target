@@ -14,25 +14,3 @@ jobs:
           echo""
           echo "This is triggered by my Source workflow...."
           sleep 10
-          
-  repository_dispatch:
-    runs-on: ubuntu-latest
-    env:
-       parameter1: ${{ github.event.client_payload.parameter1 }}
-       parameter2: ${{ github.event.client_payload.parameter2 }}
-
-    steps:
-      - uses: actions/checkout@v3
-      - name: Output param values
-        run: |
-          echo $parameter1
-          echo $parameter2
-          
-      - uses: actions/checkout@v4
-      - run: |
-          echo "parameter1 = $parameter1"
-          sed -i 's/2.0.0/V3.0.0/' release.txt
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git commit -m "version-update"
-          git push          
