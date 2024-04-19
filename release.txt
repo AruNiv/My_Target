@@ -1,1 +1,2 @@
-fix: id generated for commit message in release.yml
+1.0.0
+feat: automate_version_container.yml updated to push changes to .txt
