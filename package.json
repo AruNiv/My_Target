@@ -1,22 +1,22 @@
 {
-  "name": "My_Source",
+  "name": "My_Target",
   "version": "1.0.0",
   "description": "This repository is a POC of how to create and release actions.",
-  "main": "welcome.sh",
+  "main": "package.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AruNiv/My_Source.git"
+    "url": "git+https://github.com/AruNiv/My_Target.git"
   },
   "keywords": [],
   "author": "AruNiv",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AruNiv/My_Source/issues"
+    "url": "https://github.com/AruNiv/My_Target/issues"
   },
-  "homepage": "https://github.com/AruNiv/My_Source#readme",
+  "homepage": "https://github.com/AruNiv/My_Target#readme",
   "dependencies": {
     "@actions/core": "1.10.0"
   },
