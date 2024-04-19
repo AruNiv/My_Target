@@ -1,2 +1,2 @@
-1.0.0
-feat: automate_version_container.yml updated to push changes to .txt
+1.0.1
+fix: dry-run added to automate_version_container.yml
