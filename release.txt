@@ -1,2 +1,1 @@
-1.0.1
-fix: dry-run added to automate_version_container.yml
+fix: Update welcome.sh to delete blank lines
