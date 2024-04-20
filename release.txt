@@ -1,3 +1,1 @@
-1.1.0
-feat: echo commands added to welcome.sh
-
+feat: Update package.json
