@@ -1,3 +1,1 @@
-1.1.0
-feat: Update release.yml
-
+fix: Update release.yml
