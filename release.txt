@@ -1,3 +1,1 @@
-1.1.0
-feat: Update release.config.js
-
+feat: Update welcome.sh
